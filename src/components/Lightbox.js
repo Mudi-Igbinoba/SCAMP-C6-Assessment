@@ -34,6 +34,7 @@ function Lightbox({ show, close }) {
                 <ImageGallery
                     showFullscreenButton={false}
                     showNav={false}
+                    lazyLoad={true}
                     showPlayButton={false}
                     items={webImages}
                 />

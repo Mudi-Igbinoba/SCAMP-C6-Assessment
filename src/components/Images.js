@@ -26,18 +26,22 @@ const webImages = [
     {
         original: Product1,
         thumbnail: Product1Thumb,
+        loading: 'lazy',
     },
     {
         original: Product2,
         thumbnail: Product2Thumb,
+        loading: 'lazy',
     },
     {
         original: Product3,
         thumbnail: Product3Thumb,
+        loading: 'lazy',
     },
     {
         original: Product4,
         thumbnail: Product4Thumb,
+        loading: 'lazy',
     },
 ];
 

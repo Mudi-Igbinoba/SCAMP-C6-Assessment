@@ -20,6 +20,7 @@ function WebCarousel({}) {
                 showNav={false}
                 showPlayButton={false}
                 items={webImages}
+                lazyLoad={true}
                 onClick={openModal}
             />
 
