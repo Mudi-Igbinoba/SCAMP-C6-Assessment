@@ -30,7 +30,10 @@ header {
 
 #desktop-nav a:hover {
     color: hsl(220, 13%, 13%);
-    border-bottom: 3px solid hsl(26, 100%, 55%);
+    text-decoration: underline;
+    text-decoration-color: hsl(26, 100%, 55%);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 46px;
 }
 
 .cart {
@@ -54,6 +57,10 @@ header {
     cursor: pointer;
 }
 
+.cart:hover {
+    filter: drop-shadow(0 0 0px #000);
+}
+
 .avatar:hover {
     border: 3px solid hsl(26, 100%, 55%);
     border-radius: 50%;
@@ -66,6 +73,14 @@ header {
 #mobile-nav a {
     font-weight: 700;
     color: hsl(220, 13%, 13%);
+}
+
+#mobile-nav a:hover {
+    color: hsl(219, 9%, 45%);
+    text-decoration: underline;
+    text-decoration-color: hsl(26, 100%, 55%);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
 
 .minus:hover,
@@ -170,6 +185,11 @@ h3 {
     align-items: center;
 }
 
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: hsl(26, 100%, 55%);
+}
+
 .image-gallery-image {
     border-radius: 10px;
 }
@@ -227,6 +247,7 @@ h3 {
 }
 
 .image-gallery-thumbnail:hover {
+    border: none;
     filter: opacity(0.45) drop-shadow(0 0 0 hsl(0, 0%, 100%));
     opacity: 1;
 }
